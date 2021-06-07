@@ -18,9 +18,11 @@
 <body>
  <!-- Navigation-->
  <nav class="navbar navbar-light bg-light static-top">
-    <div align="center" id="brand-image">
-        <img src="dist/img/logoA.png" class="img-circle" style="opacity: .8">
-    </div>
+    <a href="/">
+        <div align="center" id="brand-image">
+            <img src="dist/img/logoA.png" class="img-circle" style="opacity: .8">
+        </div>
+    </a>
  </nav>
 
  <section class="features-icons bg-light text-center">

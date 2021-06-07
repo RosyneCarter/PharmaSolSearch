@@ -19,7 +19,7 @@
  <!-- Navigation-->
  <nav class="navbar navbar-light bg-light static-top">
      <div class="container">
-         <a class="navbar-brand" href="#!">PharMaSol</a>
+         <a class="navbar-brand" href="/">PharMaSol</a>
          <div>
             <a class="navbar-brand" href="#signup">A propos</a>
             <a class="navbar-brand" href="#signup">Contact</a>
@@ -40,9 +40,10 @@
                     <!-- Signup form-->
                     <form action="{{ route('result') }}" method="POST">
                         @csrf
+                        @method('POST')
                         <div class="input-group input-group-lg">
                             <input class="form-control" name="name" type="text" placeholder="Effectuez la recherche d'un produit" aria-label="Enter your email..." aria-describedby="button-submit" />
-                            <button class="btn btn-primary" id="button-submit" type="submit">Search</button>
+                            <button class="btn btn-primary" id="button-submit" type="submit">Rechercher</button>
                         </div>
                     </form>
                 </div>

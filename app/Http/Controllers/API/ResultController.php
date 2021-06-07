@@ -11,7 +11,7 @@ class ResultController extends Controller
 {
     public function result(Request $request)
     {
-        $response = Http::post('127.0.0.1:8000/api/v1.0/search', [
+        $response = Http::post('pharmasol.kmfwebapp.com/api/v1.0/search', [
             'name' => $request->name,
         ])->getBody()->getContents();
 
